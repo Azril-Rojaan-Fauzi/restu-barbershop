@@ -3,6 +3,11 @@
 
 @theme {
   --color-primary: #006fd4;
+  --color-secondary: #0f1e45;
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Poppins", sans-serif;
+}
+
+body {
+  @apply font-primary bg-black text-white;
 }
