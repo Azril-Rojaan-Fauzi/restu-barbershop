@@ -1,14 +1,16 @@
+import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
-import Hero from "../pages/Hero";
 
 const MainLayout = () => {
   return (
-    <div>
+    <>
       <Navigation />
-      <Hero />
+      <main>
+        <Outlet />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 };
 

@@ -24,8 +24,8 @@ const Footer = () => {
     >
       <div className="mx-auto max-w-7xl px-6 py-5">
         <div className="flex flex-col justify-between md:flex-row">
-          {items.map((item) => (
-            <div className="flex items-center gap-2">
+          {items.map((item, index) => (
+            <div className="flex items-center gap-2" key={index}>
               <div className="">{item.icon}</div>
               <div className="">
                 <p className="text-xs font-bold">{item.text}</p>
