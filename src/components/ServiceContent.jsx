@@ -23,7 +23,7 @@ const ServiceContent = () => {
     <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center justify-center px-6 pt-6">
       <div className="flex flex-col items-center justify-center gap-3 text-center md:gap-10">
         <h1 className="text-5xl font-bold text-white">Service</h1>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 p-3">
+        <div className="grid grid-cols-2 grid-rows-2 gap-1 p-3 md:gap-4">
           {services.map((service, index) => (
             <div
               key={index}
