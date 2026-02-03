@@ -11,7 +11,7 @@ const ContactMap = () => {
         />
       </div>
       <a
-        href="https://wa.me/6283829876116"
+        href="https://wa.me/62881023892674"
         target="_blank"
         className="w-fit rounded-md bg-black px-4 py-2 text-sm font-light hover:opacity-80"
       >
